@@ -8,11 +8,12 @@
 # 7 - Descriptive statistics are correctly computed and used to answer the questions posed about the data. --> mean, mode, count
 
 
-import time
 import datetime
-import pandas as pd
+import os  # for convenient path handling
+import time
+
 import numpy as np
-import os #for convenient path handling
+import pandas as pd
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
